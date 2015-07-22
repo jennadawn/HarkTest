@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../../recordimagecopy.png">
+   </FileRef>
+   <FileRef
       location = "self:HarkTest.xcodeproj">
    </FileRef>
 </Workspace>

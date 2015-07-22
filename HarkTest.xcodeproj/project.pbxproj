@@ -7,26 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80DDA1311B5D7BD600F83002 /* cloud1.png in Resources */ = {isa = PBXBuildFile; fileRef = 80DDA1301B5D7BD600F83002 /* cloud1.png */; };
+		80DDA1331B5D7CE800F83002 /* logocopy.png in Resources */ = {isa = PBXBuildFile; fileRef = 80DDA1321B5D7CE800F83002 /* logocopy.png */; };
+		80DDA1391B5F366800F83002 /* HarkTest.app in Resources */ = {isa = PBXBuildFile; fileRef = 80DDA1381B5F366800F83002 /* HarkTest.app */; };
+		80DDA13F1B60017B00F83002 /* recordimagecopy.png in Resources */ = {isa = PBXBuildFile; fileRef = 80DDA13E1B60017B00F83002 /* recordimagecopy.png */; };
+		80DDA1411B6001F300F83002 /* cloud3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80DDA1401B6001F300F83002 /* cloud3.jpg */; };
 		80E644BC1B5D58ED00D3B93B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E644BB1B5D58ED00D3B93B /* AppDelegate.swift */; };
 		80E644BE1B5D58ED00D3B93B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E644BD1B5D58ED00D3B93B /* FirstViewController.swift */; };
 		80E644C01B5D58ED00D3B93B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E644BF1B5D58ED00D3B93B /* SecondViewController.swift */; };
 		80E644C31B5D58ED00D3B93B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E644C11B5D58ED00D3B93B /* Main.storyboard */; };
 		80E644C51B5D58ED00D3B93B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E644C41B5D58ED00D3B93B /* Images.xcassets */; };
 		80E644C81B5D58ED00D3B93B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E644C61B5D58ED00D3B93B /* LaunchScreen.xib */; };
-		80E644D41B5D58ED00D3B93B /* HarkTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E644D31B5D58ED00D3B93B /* HarkTestTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		80E644CE1B5D58ED00D3B93B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80E644AE1B5D58ED00D3B93B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80E644B51B5D58ED00D3B93B;
-			remoteInfo = HarkTest;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		80DDA1301B5D7BD600F83002 /* cloud1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud1.png; sourceTree = "<group>"; };
+		80DDA1321B5D7CE800F83002 /* logocopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logocopy.png; sourceTree = "<group>"; };
+		80DDA1381B5F366800F83002 /* HarkTest.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = HarkTest.app; sourceTree = "<group>"; };
+		80DDA13E1B60017B00F83002 /* recordimagecopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordimagecopy.png; sourceTree = "<group>"; };
+		80DDA1401B6001F300F83002 /* cloud3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloud3.jpg; sourceTree = "<group>"; };
 		80E644B61B5D58ED00D3B93B /* HarkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E644BA1B5D58ED00D3B93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80E644BB1B5D58ED00D3B93B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,20 +34,10 @@
 		80E644C21B5D58ED00D3B93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80E644C41B5D58ED00D3B93B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		80E644C71B5D58ED00D3B93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		80E644CD1B5D58ED00D3B93B /* HarkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80E644D21B5D58ED00D3B93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80E644D31B5D58ED00D3B93B /* HarkTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarkTestTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		80E644B31B5D58ED00D3B93B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80E644CA1B5D58ED00D3B93B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,8 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				80E644B81B5D58ED00D3B93B /* HarkTest */,
-				80E644D01B5D58ED00D3B93B /* HarkTestTests */,
 				80E644B71B5D58ED00D3B93B /* Products */,
+				80DDA1381B5F366800F83002 /* HarkTest.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				80E644B61B5D58ED00D3B93B /* HarkTest.app */,
-				80E644CD1B5D58ED00D3B93B /* HarkTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +71,10 @@
 				80E644BD1B5D58ED00D3B93B /* FirstViewController.swift */,
 				80E644BF1B5D58ED00D3B93B /* SecondViewController.swift */,
 				80E644C11B5D58ED00D3B93B /* Main.storyboard */,
+				80DDA1401B6001F300F83002 /* cloud3.jpg */,
+				80DDA1321B5D7CE800F83002 /* logocopy.png */,
+				80DDA1301B5D7BD600F83002 /* cloud1.png */,
+				80DDA13E1B60017B00F83002 /* recordimagecopy.png */,
 				80E644C41B5D58ED00D3B93B /* Images.xcassets */,
 				80E644C61B5D58ED00D3B93B /* LaunchScreen.xib */,
 				80E644B91B5D58ED00D3B93B /* Supporting Files */,
@@ -94,23 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				80E644BA1B5D58ED00D3B93B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		80E644D01B5D58ED00D3B93B /* HarkTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				80E644D31B5D58ED00D3B93B /* HarkTestTests.swift */,
-				80E644D11B5D58ED00D3B93B /* Supporting Files */,
-			);
-			path = HarkTestTests;
-			sourceTree = "<group>";
-		};
-		80E644D11B5D58ED00D3B93B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				80E644D21B5D58ED00D3B93B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -135,24 +110,6 @@
 			productReference = 80E644B61B5D58ED00D3B93B /* HarkTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80E644CC1B5D58ED00D3B93B /* HarkTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80E644DA1B5D58ED00D3B93B /* Build configuration list for PBXNativeTarget "HarkTestTests" */;
-			buildPhases = (
-				80E644C91B5D58ED00D3B93B /* Sources */,
-				80E644CA1B5D58ED00D3B93B /* Frameworks */,
-				80E644CB1B5D58ED00D3B93B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80E644CF1B5D58ED00D3B93B /* PBXTargetDependency */,
-			);
-			name = HarkTestTests;
-			productName = HarkTestTests;
-			productReference = 80E644CD1B5D58ED00D3B93B /* HarkTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,10 +121,7 @@
 				TargetAttributes = {
 					80E644B51B5D58ED00D3B93B = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					80E644CC1B5D58ED00D3B93B = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 80E644B51B5D58ED00D3B93B;
+						DevelopmentTeam = 5Y7839P44N;
 					};
 				};
 			};
@@ -185,7 +139,6 @@
 			projectRoot = "";
 			targets = (
 				80E644B51B5D58ED00D3B93B /* HarkTest */,
-				80E644CC1B5D58ED00D3B93B /* HarkTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -196,15 +149,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				80E644C31B5D58ED00D3B93B /* Main.storyboard in Resources */,
+				80DDA1311B5D7BD600F83002 /* cloud1.png in Resources */,
+				80DDA13F1B60017B00F83002 /* recordimagecopy.png in Resources */,
+				80DDA1411B6001F300F83002 /* cloud3.jpg in Resources */,
+				80DDA1391B5F366800F83002 /* HarkTest.app in Resources */,
+				80DDA1331B5D7CE800F83002 /* logocopy.png in Resources */,
 				80E644C81B5D58ED00D3B93B /* LaunchScreen.xib in Resources */,
 				80E644C51B5D58ED00D3B93B /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80E644CB1B5D58ED00D3B93B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,23 +172,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80E644C91B5D58ED00D3B93B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80E644D41B5D58ED00D3B93B /* HarkTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		80E644CF1B5D58ED00D3B93B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80E644B51B5D58ED00D3B93B /* HarkTest */;
-			targetProxy = 80E644CE1B5D58ED00D3B93B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		80E644C11B5D58ED00D3B93B /* Main.storyboard */ = {
@@ -346,9 +281,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HarkTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,43 +293,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HarkTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		80E644DB1B5D58ED00D3B93B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HarkTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarkTest.app/HarkTest";
-			};
-			name = Debug;
-		};
-		80E644DC1B5D58ED00D3B93B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HarkTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarkTest.app/HarkTest";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -415,14 +320,7 @@
 				80E644D91B5D58ED00D3B93B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		80E644DA1B5D58ED00D3B93B /* Build configuration list for PBXNativeTarget "HarkTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80E644DB1B5D58ED00D3B93B /* Debug */,
-				80E644DC1B5D58ED00D3B93B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
