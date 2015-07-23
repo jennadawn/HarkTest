@@ -10,8 +10,8 @@
 		80DDA1311B5D7BD600F83002 /* cloud1.png in Resources */ = {isa = PBXBuildFile; fileRef = 80DDA1301B5D7BD600F83002 /* cloud1.png */; };
 		80DDA1331B5D7CE800F83002 /* logocopy.png in Resources */ = {isa = PBXBuildFile; fileRef = 80DDA1321B5D7CE800F83002 /* logocopy.png */; };
 		80DDA1391B5F366800F83002 /* HarkTest.app in Resources */ = {isa = PBXBuildFile; fileRef = 80DDA1381B5F366800F83002 /* HarkTest.app */; };
-		80DDA13F1B60017B00F83002 /* recordimagecopy.png in Resources */ = {isa = PBXBuildFile; fileRef = 80DDA13E1B60017B00F83002 /* recordimagecopy.png */; };
 		80DDA1411B6001F300F83002 /* cloud3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80DDA1401B6001F300F83002 /* cloud3.jpg */; };
+		80DDA1431B6088E400F83002 /* recordimagecopy.png in Resources */ = {isa = PBXBuildFile; fileRef = 80DDA1421B6088E400F83002 /* recordimagecopy.png */; };
 		80E644BC1B5D58ED00D3B93B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E644BB1B5D58ED00D3B93B /* AppDelegate.swift */; };
 		80E644BE1B5D58ED00D3B93B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E644BD1B5D58ED00D3B93B /* FirstViewController.swift */; };
 		80E644C01B5D58ED00D3B93B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E644BF1B5D58ED00D3B93B /* SecondViewController.swift */; };
@@ -24,8 +24,8 @@
 		80DDA1301B5D7BD600F83002 /* cloud1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud1.png; sourceTree = "<group>"; };
 		80DDA1321B5D7CE800F83002 /* logocopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logocopy.png; sourceTree = "<group>"; };
 		80DDA1381B5F366800F83002 /* HarkTest.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = HarkTest.app; sourceTree = "<group>"; };
-		80DDA13E1B60017B00F83002 /* recordimagecopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordimagecopy.png; sourceTree = "<group>"; };
 		80DDA1401B6001F300F83002 /* cloud3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloud3.jpg; sourceTree = "<group>"; };
+		80DDA1421B6088E400F83002 /* recordimagecopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recordimagecopy.png; path = ../recordimagecopy.png; sourceTree = "<group>"; };
 		80E644B61B5D58ED00D3B93B /* HarkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E644BA1B5D58ED00D3B93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80E644BB1B5D58ED00D3B93B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,9 +72,9 @@
 				80E644BF1B5D58ED00D3B93B /* SecondViewController.swift */,
 				80E644C11B5D58ED00D3B93B /* Main.storyboard */,
 				80DDA1401B6001F300F83002 /* cloud3.jpg */,
+				80DDA1421B6088E400F83002 /* recordimagecopy.png */,
 				80DDA1321B5D7CE800F83002 /* logocopy.png */,
 				80DDA1301B5D7BD600F83002 /* cloud1.png */,
-				80DDA13E1B60017B00F83002 /* recordimagecopy.png */,
 				80E644C41B5D58ED00D3B93B /* Images.xcassets */,
 				80E644C61B5D58ED00D3B93B /* LaunchScreen.xib */,
 				80E644B91B5D58ED00D3B93B /* Supporting Files */,
@@ -150,8 +150,8 @@
 			files = (
 				80E644C31B5D58ED00D3B93B /* Main.storyboard in Resources */,
 				80DDA1311B5D7BD600F83002 /* cloud1.png in Resources */,
-				80DDA13F1B60017B00F83002 /* recordimagecopy.png in Resources */,
 				80DDA1411B6001F300F83002 /* cloud3.jpg in Resources */,
+				80DDA1431B6088E400F83002 /* recordimagecopy.png in Resources */,
 				80DDA1391B5F366800F83002 /* HarkTest.app in Resources */,
 				80DDA1331B5D7CE800F83002 /* logocopy.png in Resources */,
 				80E644C81B5D58ED00D3B93B /* LaunchScreen.xib in Resources */,

@@ -38,10 +38,10 @@
                                     <action selector="stopButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="3iG-nk-xAa"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oC3-uw-b3E">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Svy-eZ-1P4">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="279" width="400" height="242"/>
+                                    <rect key="frame" x="80" y="217" width="240" height="128"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -50,22 +50,21 @@
                             <mask key="subviews">
                                 <exclude reference="AqJ-Mt-KCb"/>
                                 <exclude reference="4PH-qf-YBq"/>
-                                <exclude reference="oC3-uw-b3E"/>
+                                <exclude reference="Svy-eZ-1P4"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="AqJ-Mt-KCb"/>
                                 <include reference="4PH-qf-YBq"/>
-                                <include reference="oC3-uw-b3E"/>
+                                <include reference="Svy-eZ-1P4"/>
                             </mask>
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Record" image="cloudicon" id="acW-dT-cKf"/>
                     <connections>
-                        <outlet property="notRecordingImage" destination="oC3-uw-b3E" id="uRW-4v-ePk"/>
+                        <outlet property="imageBucket" destination="Svy-eZ-1P4" id="Gu2-9N-Hqo"/>
                         <outlet property="recordButton" destination="AqJ-Mt-KCb" id="Y6Z-Vc-z11"/>
-                        <outlet property="recordingImage" destination="oC3-uw-b3E" id="IN3-qW-BXL"/>
                         <outlet property="stopButton" destination="4PH-qf-YBq" id="RPj-xr-CdI"/>
                     </connections>
                 </viewController>

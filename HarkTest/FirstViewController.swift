@@ -16,18 +16,17 @@ class FirstViewController: UIViewController {
     var meterTimer:NSTimer!
     var soundFileURL:NSURL?
     
-    @IBOutlet weak var recordingImage: UIImageView!
     
     @IBOutlet weak var recordButton: UIButton!
     
     @IBOutlet weak var stopButton: UIButton!
     
-    @IBOutlet weak var notRecordingImage: UIImageView!
+    @IBOutlet weak var imageBucket: UIImageView!
     
     
     @IBAction func stopButtonPressed(sender: AnyObject) {
         
-        notRecordingImage.image = UIImage(named: "cloud3")
+        imageBucket.image = UIImage(named: "cloud3.jpg")
         
         println("stop")
         
@@ -51,7 +50,7 @@ class FirstViewController: UIViewController {
     
     @IBAction func recordButtonPressed(sender: AnyObject) {
     
-        recordingImage.image = UIImage(named: "recordimagecopy")
+        imageBucket.image = UIImage(named: "recordimagecopy.png")
         
         if player != nil && player.playing {
             player.stop()
