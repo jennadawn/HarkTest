@@ -15,6 +15,8 @@ class FirstViewController: UIViewController {
     var player : AVAudioPlayer!
     var meterTimer:NSTimer!
     var soundFileURL:NSURL?
+    var recordedAudio:RecordedAudio!
+    var filePath:NSURL!
     
     
     @IBOutlet weak var recordButton: UIButton!
@@ -49,7 +51,17 @@ class FirstViewController: UIViewController {
     }
     
     @IBAction func recordButtonPressed(sender: AnyObject) {
+        
+        let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory,.UserDomainMask,true)[0] as! String
     
+        var currentDateTime=NSDate();
+        var formatter = NSDateFormatter();
+        formatter.dateFormat = "ddMMyyyy-HHmmss";
+        var recordingName = formatter.stringFromDate(currentDateTime)+".wav"
+        var pathArray = [dirPath, recordingName]
+        let filePath = NSURL.fileURLWithPathComponents(pathArray)
+        println(filePath)
+        
         imageBucket.image = UIImage(named: "recordimagecopy.png")
         
         if player != nil && player.playing {
@@ -186,7 +198,15 @@ class FirstViewController: UIViewController {
 extension FirstViewController : AVAudioRecorderDelegate {
     
     func audioRecorderDidFinishRecording(recorder: AVAudioRecorder!,
+        
         successfully flag: Bool) {
+            //Store in Model
+            recordedAudio=RecordedAudio() ;
+            recordedAudio.filePathURL=recorder.url ;
+            recordedAudio.title=recorder.url.lastPathComponent ;
+            //Segway once we've finished processing the audio
+            
+
             println("finished recording \(flag)")
             stopButton.enabled = false
             recordButton.setTitle("Record", forState:.Normal)
